@@ -1,0 +1,4 @@
+bootstrap:	 css/bootstrap.css
+jquery:	 	jquery.min.js
+validate: 	validate.js
+

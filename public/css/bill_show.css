@@ -1,0 +1,13 @@
+#show-bill{
+    width:100%;
+    border: 1px solid #333;
+}
+.logo-bill-show{
+    width:70px;
+    height:auto;
+    float:left;
+    margin-right: 5px;
+}
+#show-bill .profile-cus{
+    margin:0;
+}

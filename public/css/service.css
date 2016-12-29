@@ -1,0 +1,52 @@
+form.them-dichvu{
+    display: none;
+    position: fixed;
+    height: 250px;
+    width: 450px;
+    border: 1px solid #b19696;
+    top:10%;
+    left: 40%;
+    z-index: 9999;
+    background: rgb(192, 219, 230);
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(118, 124, 165, 0.56);
+    cursor: pointer;
+}
+
+
+#service .title-h2-service{
+    margin-left: -350px;
+}
+
+.form-delete-service{
+display: inline;
+}
+.table-service-index{
+    width: 600px;
+    margin-top:20px;
+}
+.table-service-index tr td:nth-child(3){
+    width: 20%
+}
+
+.btn-action{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+}
+.btn-action-a{
+    padding-top:4px;
+}
+ 
+#service .btn-show-dichvu{
+    margin-left: -55px;
+}
+#service{
+     height: 900px;
+      overflow: auto;
+}
+
+#service .container{
+    width: 90%;
+}

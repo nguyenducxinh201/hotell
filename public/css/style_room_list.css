@@ -1,0 +1,74 @@
+#list-room{
+    width: 100%;
+    height: 1200px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+#list-room .room-guest{
+   background: rgba(29, 32, 78, 0.67);
+}
+#list-room .room-status{
+    height: 100%;
+    width: 100%;
+    color:white;
+    border-radius: 5px;
+}
+#list-room .panel-room{
+    box-sizing: border-box;
+    position: relative;
+}
+#list-room .img-room{
+    height: 150px;
+    width:100%;
+    cursor: pointer;
+    border-radius:5px;
+}
+#list-room .img-room:hover{
+    box-shadow: 5px 5px 8px rgba(10, 6, 60, 0.48);
+}
+
+
+.panel-add-room{
+height: 200px; 
+margin-top: 13px;
+ position: relative;
+ width: 150px;
+}
+.form-add-room, .detail-room-hidden{
+    display: none;
+    position: fixed;
+    height: 300px;
+    width: 400px;
+    border: 1px solid #b19696;
+    top:10%;
+    left: 40%;
+    z-index: 9999;
+    background: rgba(62, 157, 175, 0.51);
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(118, 124, 165, 0.56);
+    cursor: pointer;
+}
+.form-add-room{
+    height:350px;
+    width:425px;
+}
+.form-add-room label,h2{
+    color:rgba(255, 255, 255, 0.92);
+}
+.form-add-room button{
+    margin-top:15px;
+}
+
+.btn-add-room{
+    margin-top:50px;
+     margin-left:50px;
+}
+.detail-room-hidden{
+    color: #fff;
+}
+
+.item-detail-guest{
+    color:#fff;
+}
+

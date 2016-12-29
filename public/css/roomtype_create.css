@@ -1,0 +1,37 @@
+
+.row1 div{
+  line-height:35px;
+}
+#form_themphong{
+    display: none;
+    position: fixed;
+    height: 400px;
+    width: 800px;
+    border: 1px solid #b19696;
+    top:20%;
+    left: 30%;
+    z-index: 9999;
+    background: rgb(30, 173, 199);
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(118, 124, 165, 0.56);
+    cursor: pointer;
+
+}
+table img{
+  width: 100%;
+  height: auto;
+}
+#wrapper1{
+  height: 1200px;
+  width: 98%;
+}
+#wrapper1 .container{
+  width: 100%;
+}
+#table-room-type{
+  margin-right: 10px;
+}
+#table-room-type{
+  border: 1px solid rgba(199, 206, 212, 0.21)
+}

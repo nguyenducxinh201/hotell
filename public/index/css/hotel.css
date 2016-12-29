@@ -1,0 +1,165 @@
+
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#wrapper{
+    height:2500px;
+    width: 100%;
+}
+.container{
+    width: 85%;
+    height: 100%;
+    margin:0 auto;
+    padding: 0;
+}
+header{
+    height: 2.4%;
+}
+header .logo{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+header .support{
+    width: 13%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+header .support p{
+    text-align: right;
+    color: #666;
+}
+header .logo img{
+    height: 100%;
+    width: 100%;
+}
+header .login{
+    height: 100%;
+    width: 15%;
+    float: right;
+    border: 1px solid #a59999
+}
+header button{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+}
+header .login h3{
+    text-align: center;
+}
+
+#index1{
+    height:2.25%;
+    width: 100%;
+    background: rgb(81,91,98);
+}
+#index1 .container{
+        padding-top: 10px;
+}
+#index1 table{
+    width: 100%;
+}
+#index1 table td{
+    color:#fff;
+}
+#index1 .phong1{
+    width: 30%;
+}
+#index1 td{
+    padding-right: 5px;
+}
+
+.title{
+    width: 100%;
+    height: 4%;
+}
+
+p.fg{
+    margin-top: 10px;
+}
+
+
+#slide{
+    width: 100%; 
+    height: 15%;
+}
+#slide img{
+width: 100%;
+height: 100%;
+background-size: contain;
+}
+
+#contain{
+    width: 100%; 
+    height: 70%;
+    margin-top: 20px;
+}
+
+#item_room{
+    width: 100%;
+    height: 50%;
+}
+.row_title{
+    width: 100%;
+    height: 6%;
+    margin:0;
+}
+.row_title div{
+    text-align: center;
+    border: 1px solid #a59999;
+    border-right: none;
+    /*height:100%;*/
+    float: left;
+    line-height: 50px;
+
+}
+.row_title div:nth-of-type(6){
+    border-right: 1px solid #a59999;
+}
+.row_title div:nth-of-type(3){
+    line-height: 20px;
+    height: 98%;
+}
+.roomtype{
+    width: 100%;
+    height: 30%;
+}
+.room_name{
+    width: 100%;
+    height: 15%;
+    padding-top:8px;
+    border-right: 1px solid #a59999;
+    border-left: 1px solid #a59999;
+}
+.list_room{
+    width: 100%;
+    height: 85%;
+    margin:0;
+    clear: both;
+}
+.list_room div{
+    height: 100%;
+    border:1px solid #a59999;
+    border-right: none;
+    padding-top:20px;
+}
+.list_room div:nth-of-type(6){
+    border-right: 1px solid #a59999;
+}
+.list_room div:nth-of-type(1){
+    padding: 0;
+}
+.list_room div:nth-of-type(1) img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+.price span{
+    color:#f44336;
+    font-size: 20px;
+}

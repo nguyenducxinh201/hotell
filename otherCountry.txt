@@ -1,0 +1,1 @@
+String will insert into file first param
